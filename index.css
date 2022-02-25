@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#number-cont {
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(344deg 0% 2%) 11%,
+    hsl(344deg 0% 4%) 22%,
+    hsl(344deg 0% 6%) 33%,
+    hsl(344deg 0% 8%) 44%,
+    hsl(344deg 0% 9%) 56%,
+    hsl(344deg 0% 10%) 67%,
+    hsl(344deg 0% 11%) 78%,
+    hsl(344deg 0% 13%) 89%,
+    hsl(0deg 0% 14%) 100%
+  );
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input {
+  border: 1px solid #39ff14;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  outline: none;
+  background-color: #fff89a;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#number {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+#info-cont {
+  background-color: #191a19;
+  color: white;
+  height: 60vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

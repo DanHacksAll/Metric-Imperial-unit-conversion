@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="number-cont">
+      <h1>Metric/Imperial unit conversion</h1>
+      <input
+        id="input"
+        type="number"
+        placeholder="Escribe un numero"
+        oninput="lengthConverter(this.value)"
+        onchange="lengthConverter(this.value)"
+      />
+    </div>
+    <div id="info-cont">
+      <h3>Length(Meter/Feet)</h3>
+      <p id="length"></p>
+      <h3>Volume(Liters/Gallons)</h3>
+      <p id="volume"></p>
+      <h3>Mass(Kilograms/Pounds)</h3>
+      <p id="mass"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
